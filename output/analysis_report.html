@@ -1,0 +1,109 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Cricket Cover Drive Analysis Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
+                .container { max-width: 1000px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+                .header { text-align: center; margin-bottom: 30px; }
+                .score-card { background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0; }
+                .score-large { font-size: 48px; font-weight: bold; color: #007bff; }
+                .category-scores { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0; }
+                .category { background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #007bff; }
+                .skill-level { background: #e3f2fd; padding: 15px; border-radius: 8px; margin: 20px 0; }
+                .recommendations { background: #fff3cd; padding: 15px; border-radius: 8px; margin: 20px 0; }
+                .phase-timeline { margin: 20px 0; }
+                .phase { background: #f1f3f4; padding: 10px; margin: 5px 0; border-radius: 5px; }
+                .contact-moment { background: #ffe6e6; padding: 10px; margin: 5px 0; border-radius: 5px; }
+                .good { color: #28a745; }
+                .warning { color: #ffc107; }
+                .poor { color: #dc3545; }
+                table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+                th, td { padding: 10px; text-align: left; border-bottom: 1px solid #ddd; }
+                th { background-color: #f2f2f2; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                
+                <div class="score-card">
+                    <h2>Overall Performance</h2>
+                    <div style="text-align: center;">
+                        <div class="score-large">7.9/10</div>
+                        <p><strong>Skill Level: Intermediate</strong></p>
+                        <p>Good technique with room for improvement</p>
+                    </div>
+                </div>
+                
+                <div class="category-scores">
+                    <div class="category">
+                        <h3>Footwork</h3>
+                        <div class="score-large" style="font-size: 24px;">6.5/10</div>
+                        <p>Good footwork. Consider more decisive movement toward the ball.</p>
+                    </div>
+                    <div class="category">
+                        <h3>Head Position</h3>
+                        <div class="score-large" style="font-size: 24px;">8.5/10</div>
+                        <p>Great head position. Well balanced over front knee.</p>
+                    </div>
+                    <div class="category">
+                        <h3>Swing Control</h3>
+                        <div class="score-large" style="font-size: 24px;">8.0/10</div>
+                        <p>Excellent bat swing control. Good elbow position maintained.</p>
+                    </div>
+                    <div class="category">
+                        <h3>Balance</h3>
+                        <div class="score-large" style="font-size: 24px;">8.2/10</div>
+                        <p>Excellent balance maintained throughout the shot.</p>
+                    </div>
+                    <div class="category">
+                        <h3>Follow Through</h3>
+                        <div class="score-large" style="font-size: 24px;">8.0/10</div>
+                        <p>Strong follow-through. Good extension after contact.</p>
+                    </div>
+                </div>
+        
+                <div class="skill-level">
+                    <h2>Skill Assessment</h2>
+                    <table>
+                        <tr><th>Category</th><th>Grade</th></tr>
+        <tr><td>Footwork</td><td>Intermediate</td></tr><tr><td>Head Position</td><td>Advanced</td></tr><tr><td>Swing Control</td><td>Advanced</td></tr><tr><td>Balance</td><td>Advanced</td></tr><tr><td>Follow Through</td><td>Advanced</td></tr></table><p><strong>Strengths:</strong> Head Position, Swing Control, Balance, Follow Through</p></div>
+                <div class="recommendations">
+                    <h2>Training Recommendations</h2>
+                    <ul>
+        <li>Practice consistently and work on weak areas while maintaining strengths</li></ul></div>
+                    <div class="phase-timeline">
+                        <h2>Shot Phase Analysis</h2>
+            
+                        <div class="phase">
+                            <strong>Stance</strong> 
+                            (Frames 0-10, 0.33s)
+                            - Confidence: 0.80
+                        </div>
+                
+                        <div class="phase">
+                            <strong>Downswing</strong> 
+                            (Frames 64-79, 0.50s)
+                            - Confidence: 0.90
+                        </div>
+                
+                        <div class="phase">
+                            <strong>Impact</strong> 
+                            (Frames 79-84, 0.17s)
+                            - Confidence: 0.95
+                        </div>
+                
+                        <div class="phase">
+                            <strong>Follow_Through</strong> 
+                            (Frames 84-104, 0.67s)
+                            - Confidence: 0.80
+                        </div>
+                </div>
+                    <div>
+                        <h2>Temporal Analysis</h2>
+                        <table>
+                            <tr><th>Metric</th><th>Value</th></tr>
+            <tr><td>Elbow Angle Smoothness</td><td>0.154</td></tr><tr><td>Elbow Angle Variance</td><td>1544.974</td></tr><tr><td>Spine Lean Smoothness</td><td>0.541</td></tr><tr><td>Spine Lean Variance</td><td>58.023</td></tr><tr><td>Overall Smoothness</td><td>400.923</td></tr></table></div>
